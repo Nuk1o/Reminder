@@ -30,9 +30,9 @@ public class Add_task : MonoBehaviour
                 string text_task = _task_text.text;
 
                 GameObject _new_task = Instantiate(Task, Task.transform.position, quaternion.identity,Place.transform);
-                TMP_Text _title = _new_task.GetComponent<TMP_Text>();
-                TMP_Text _text = _new_task.GetComponent<TMP_Text>();
-
+                TMP_Text [] _text_arr = _new_task.GetComponentsInChildren<TMP_Text>();
+                TMP_Text _title = _text_arr[0];
+                TMP_Text _text = _text_arr[1];
                 _title.text = text_title;
                 _text.text = text_task;
             }
