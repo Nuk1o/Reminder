@@ -35,6 +35,10 @@ public class Add_task : MonoBehaviour
                 TMP_Text _text = _text_arr[1];
                 _title.text = text_title;
                 _text.text = text_task;
+                _new_task.SetActive(true);
+                
+                _main_menu.SetActive(true);
+                _add_menu.SetActive(false);
             }
             else
             {
