@@ -1412,7 +1412,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8188111860981211527}
   m_Layer: 0
-  m_Name: Edit
+  m_Name: Edit_task
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

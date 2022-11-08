@@ -39,6 +39,7 @@ public class Add_task : MonoBehaviour
                 
                 _main_menu.SetActive(true);
                 _add_menu.SetActive(false);
+                Singleton._tasks.Add(_new_task);
             }
             else
             {
